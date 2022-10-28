@@ -133,6 +133,7 @@ button:hover {
 }
 
 .img-left {
+    float: left;
     margin: 20px;
     width: 100%;
     border: 10px solid #45062E;
