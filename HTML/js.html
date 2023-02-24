@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/js.css">
+    <title>Konseptutvikling og programmering</title>
+</head>
+<body>
+    <div class="grid">
+        
+        <div class="navbar">
+            <a class="a-btn" href="../index.html">
+                <button class="btn">STARTSIDE</button></a>
+
+            <div class="dropdown">
+                <a class="a-btn" href="projects.html"><button class="btn">PROSJEKT</button></a>
+                <div class="dropdown-content">
+                    <a class="a-btn" href="kp.html"><button class="btn" id="dropdown-btn">KONSEPTUTVIKLING OG PROGRAMMERING</button></a>
+                    <a class="a-btn" href="ph.html"><button class="btn" id="dropdown-btn">PRODUKSJON OG HISTORIEFORTELJING</button></a>
+                    <a class="a-btn" href="tek.html"><button class="btn" id="dropdown-btn">TEKNOLOGIFORSTÅING</button></a>
+                </div>
+            </div>
+
+            <a class="a-btn" href="skule.html"><button class="btn">INFO OM SKULEN</button></a>
+        </div>
+
+        <div class="info">
+            <h2>JavaScript</h2>
+            <p>Javascript prosjekt</p>
+        </div>
+
+        <div class="content2">
+            <h2>Stein, saks, papir</h2>
+            <p>Spill stein, saks, papir med ein datamaskin! Prosjektet inneholder variabler, funksjoner, arrays (lister) og for løkker. 
+                I tillegg har eg brukte eg eit flytskjema når eg først starta prosjektet.</p>
+            <div id="game"></div>
+
+            <script src="../JS/rock.js"></script>
+        </div>
+
+        <div class="content1">
+            <h2>"Cookie Clicker"</h2>
+            <p>Eit prosjekt inspirert av "cookie clicker" spill. Prosjektet inneholder variabler, funksjoner og lokal lagring.</p>
+
+            <button onClick="load()">Load :0</button>
+            <button onClick="save()">Save :3</button>
+            <button onClick="decrease()">Decrease :(</button>
+            <button onClick="reset()">Reset :|</button>
+            <button onClick="increase()">Increase :)</button>
+            <h3><a class="js-a" id="clicks">0</a></h3>
+
+            <script src="../JS/counter.js"></script>
+        </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="p1">
+                Kontakt meg!
+                <br>
+                benedikte@myklestad.net
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
